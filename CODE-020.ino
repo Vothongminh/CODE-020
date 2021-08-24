@@ -1,7 +1,7 @@
 // #VTM https: //www.you.tube.com/c/VTMVlogVoThongMinh
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>          //https://drive.google.com/file/d/1lpJyuODmZXfi7wwBM2B79BqBIBmBfanS/view?usp=sharing
-#include "MAX30105.h"                   //https://github.com/oxullo/Arduino-MAX30100.git
+#include "MAX30105.h"                   //https://github.com/Vothongminh/LIBRARY-VTM/blob/main/SparkFun_MAX3010x_Pulse_and_Proximity_Sensor_Library.rar
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 #define start 3
 #define stopp 4
