@@ -3,12 +3,12 @@
 #include <LiquidCrystal_I2C.h>          //https://drive.google.com/file/d/1lpJyuODmZXfi7wwBM2B79BqBIBmBfanS/view?usp=sharing
 #include "MAX30105.h"                   //https://github.com/oxullo/Arduino-MAX30100.git
 LiquidCrystal_I2C lcd(0x27, 20, 4);
-#define start 4
-#define stopp 5
-#define stepPin 7
-#define dirPin 6
-#define led 3
-#define sw 2
+#define start 3
+#define stopp 4
+#define stepPin 5
+#define dirPin 2
+#define led 6
+#define sw 7
 #include "heartRate.h"
 MAX30105 particleSensor;
 const byte RATE_SIZE = 4;
